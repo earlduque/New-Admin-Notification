@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>new_admin_mail_script</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	template.print(gs.getProperty('instance_name'));
+	
+	var emailSubject = event.parm2 + " has granted " + event.parm1 + " admin access to ServiceNow " + gs.getProperty('instance_name');
+	email.setSubject(emailSubject);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-01-16 22:17:39</sys_created_on>
+        <sys_id>553bc60cdbb303008531711ebf9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>new_admin_mail_script</sys_name>
+        <sys_package display_value="New Admin Notification" source="x_165574_new_admin">11e38a08dbb303008531711ebf961997</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Admin Notification">11e38a08dbb303008531711ebf961997</sys_scope>
+        <sys_update_name>sys_script_email_553bc60cdbb303008531711ebf9619bb</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-01-16 22:17:39</sys_updated_on>
+    </sys_script_email>
+</record_update>

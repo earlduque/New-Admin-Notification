@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Security">047929527ff832005f58108c3ffa91bd</category>
+        <collection>sys_user_has_role</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_165574_new_admin.sys_user_has_role.new</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>&lt;p&gt;${event.parm2} has granted ${event.parm1} admin access to ServiceNow ${mail_script:new_admin_mail_script}&lt;/p&gt;</div>
+<div>&lt;p&gt;This e-mail is informational only, please do not reply.&lt;/p&gt;</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Admin Access Granted Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin-eduque</sys_created_by>
+        <sys_created_on>2018-01-16 22:19:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce7bca0cdbb303008531711ebf96195a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Admin Access Granted Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="New Admin Notification" source="x_165574_new_admin">11e38a08dbb303008531711ebf961997</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Admin Notification">11e38a08dbb303008531711ebf961997</sys_scope>
+        <sys_update_name>sysevent_email_action_ce7bca0cdbb303008531711ebf96195a</sys_update_name>
+        <sys_updated_by>admin-eduque</sys_updated_by>
+        <sys_updated_on>2018-01-16 22:22:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
