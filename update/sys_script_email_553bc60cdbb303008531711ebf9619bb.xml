@@ -6,7 +6,7 @@
         <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
           /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
           /* Optional GlideRecord */ event) {
-
+// hi
 	template.print(gs.getProperty('instance_name'));
 	
 	var emailSubject = event.parm2 + " has granted " + event.parm1 + " admin access to ServiceNow " + gs.getProperty('instance_name');
@@ -17,13 +17,13 @@
         <sys_created_by>admin-eduque</sys_created_by>
         <sys_created_on>2018-01-16 22:17:39</sys_created_on>
         <sys_id>553bc60cdbb303008531711ebf9619bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>new_admin_mail_script</sys_name>
         <sys_package display_value="New Admin Notification" source="x_165574_new_admin">11e38a08dbb303008531711ebf961997</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Admin Notification">11e38a08dbb303008531711ebf961997</sys_scope>
         <sys_update_name>sys_script_email_553bc60cdbb303008531711ebf9619bb</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-01-16 22:17:39</sys_updated_on>
+        <sys_updated_on>2018-01-16 22:25:30</sys_updated_on>
     </sys_script_email>
 </record_update>
