@@ -24,8 +24,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div>&lt;p&gt;${event.parm2} has granted ${event.parm1} admin access to ServiceNow ${mail_script:new_admin_mail_script}&lt;/p&gt;</div>
-<div>&lt;p&gt;This e-mail is informational only, please do not reply. &lt;/p&gt;</div>]]></message_html>
+        <message_html><![CDATA[<div>${event.parm2} has granted ${event.parm1} admin access to ServiceNow ${mail_script:new_admin_mail_script}</div>
+<div>This e-mail is informational only, please do not reply.&nbsp;</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>New Admin Access Granted Notification</name>
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ce7bca0cdbb303008531711ebf96195a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>New Admin Access Granted Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Admin Notification" source="x_165574_new_admin">11e38a08dbb303008531711ebf961997</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="New Admin Notification">11e38a08dbb303008531711ebf961997</sys_scope>
         <sys_update_name>sysevent_email_action_ce7bca0cdbb303008531711ebf96195a</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-01-16 22:25:08</sys_updated_on>
+        <sys_updated_on>2018-01-16 22:58:09</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
