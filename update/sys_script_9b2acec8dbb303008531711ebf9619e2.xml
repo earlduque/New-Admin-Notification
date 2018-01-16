@@ -38,7 +38,7 @@
 	newGR.addQuery('role', current.role);
 	newGR.query();
 	if (!newGR.next()){
-		gs.eventQueue('x_165574_new_admin.sys_user_has_role.new_admin', current, current.user.getDisplayValue(), gs.getUserDisplayName());
+		gs.eventQueue('x_165574_new_admin.sys_user_has_role.new', current, current.user.getDisplayValue(), gs.getUserDisplayName());
 	} 
 
 })(current, previous);]]></script>
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b2acec8dbb303008531711ebf9619e2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Event Registry - User Role</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Admin Notification" source="x_165574_new_admin">11e38a08dbb303008531711ebf961997</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="New Admin Notification">11e38a08dbb303008531711ebf961997</sys_scope>
         <sys_update_name>sys_script_9b2acec8dbb303008531711ebf9619e2</sys_update_name>
         <sys_updated_by>admin-eduque</sys_updated_by>
-        <sys_updated_on>2018-01-16 22:24:45</sys_updated_on>
+        <sys_updated_on>2018-01-16 22:38:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
