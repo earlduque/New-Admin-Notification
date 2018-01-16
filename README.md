@@ -1,5 +1,3 @@
-Creates an event when someone gains admin role (via user roles or via a group that has the role) and sends a notification to the system administrator account (change this on the notification to whatever you want). The notification says "X has granted Y admin access on instance_name]
-
 # Generated files
 This repository contains generated files and a checksum.
 
